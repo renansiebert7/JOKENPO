@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("china.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.conteiner {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+#rock {
+    background-color: red;
+}
+
+#paper {
+    background-color: blue;
+}
+
+#scissors {
+    background-color: yellow;
+}
+
+p {
+    margin: 4px
+}
+
+.your-score span {
+    color: red;
+}
+
+.machine-score span {
+    color: blue;
+}
+
+#human {
+    color: red;
+}
+
+
+
