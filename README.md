@@ -17,9 +17,10 @@ CSS3
 JavaScript
 
 📷 Preview
+
 <img src='https://github.com/renansiebert7/JOKENPO/blob/master/DESIGN%20READ.ME%20GIT%20HUB.png?raw=true'>
 
-🔗 Acesse o projeto
+🔗 Acesse o projeto:
 <br>
 https://renansiebert7.github.io/JOKENPO/
 
